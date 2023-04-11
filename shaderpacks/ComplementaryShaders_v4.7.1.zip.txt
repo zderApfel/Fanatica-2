@@ -1,4 +1,4 @@
-#Tue Apr 11 15:09:19 EDT 2023
+#Tue Apr 11 15:56:30 EDT 2023
 shadowDistance=96.0
 COLORED_SHADOWS=true
 EMISSIVE_COPPER_ORE=false
