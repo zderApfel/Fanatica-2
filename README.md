@@ -1,6 +1,6 @@
 <h1>Fanatica's Back, Baby!</h1>
 
-<h2>Modpack Download: </h2>
+<h2>Modpack Download: https://github.com/zderApfel/Fanatica-2/raw/master/Fanatica%202.zip</h2>
 <h2>Discord link: https://discord.gg/9uf68Uvzvy</h2>
 
 <p>Fanatica 2 is modpack the long-awaited sequel to a Minecraft Server beloved and cherished by a small but passionate group.</p>
