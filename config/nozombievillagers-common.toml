@@ -1,0 +1,7 @@
+#Odds Spawner ZV is just a Zombie
+#Range: 0.0 ~ 100.0
+oddsSpawnerJustZombie = 96.0
+#Odds Natural ZV is just a Zombie
+#Range: 0.0 ~ 100.0
+oddsNaturalJustZombie = 0.0
+

@@ -1,0 +1,177 @@
+#
+###Version, do not change!##
+#Range: > 0
+Version = 20
+
+#Recruits Config:
+[Recruits]
+	#
+	#----Should Recruits Make Villager Huh? sound?----
+	#	(takes effect after restart)
+	#	default: true
+	PlayVillagerAmbientSound = true
+	#
+	#----Should Recruits instead of Iron Golems spawn in Villages ----
+	#	(takes effect after restart)
+	#	default: true
+	OverrideIronGolemSpawn = true
+	#
+	#Max Recruits in a Village Chunk to Spawn
+	#	(takes effect after restart)
+	#	default: 1
+	#Range: 1 ~ 10
+	MaxSpawnRecruitsInVillage = 1
+	#
+	#----Should Pillagers do Friendlyfire ----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerFriendlyFire = true
+	#
+	#----Should Pillagers spawn naturally ----
+	#	(takes effect after restart)
+	#	default: false
+	PillagerSpawn = false
+	#
+	#----Should Pillagers attack Monsters----
+	#	(takes effect after restart)
+	#	default: false
+	PillagerAttackMonsters = false
+	#
+	#----Should Monsters attack Pillagers----
+	#	(takes effect after restart)
+	#	default: false
+	MonstersAttackPillagers = false
+	#
+	#----Should Pillagers attack all Living----
+	#	(takes effect after restart)
+	#	default: false
+	ShouldPillagersRaidNaturally = false
+	#
+	#Max XP a Recruit needs to Level Up
+	#	(takes effect after restart)
+	#	default: 250
+	#Range: 50 ~ 10000
+	RecruitsMaxXpForLevelUp = 250
+	#
+	#----Should Pillagers have increased Combat Range, so they can shoot from far away----
+	#	(takes effect after restart)
+	#	default: false
+	PillagerIncreasedCombatRange = false
+	#
+	#----Should Vindicators can spawn with shield and sword and AI to use these----
+	#	(takes effect after restart)
+	#	default: false
+	VindicatorSpawnItems = false
+	#
+	#----Should Pillagers can spawn with shield and sword and AI to use these----
+	#	(takes effect after restart)
+	#	default: true
+	PillagerSpawnItems = false
+	#
+	#Distance Recruits will start to follow its owner
+	#	(takes effect after restart)
+	#	default: 9.0
+	#Range: 4.0 ~ 16.0
+	RecruitFollowStartDistance = 9.0
+	#
+	#Max amount a player can recruit
+	#	(takes effect after restart)
+	#	default: 64
+	#Range: 1 ~ 1280
+	MaxRecruitsForPlayer = 64
+	#
+	#----Target Blacklist----
+	#	(takes effect after restart)
+	#	Entities in this list won't be targeted at all, for example: ["minecraft:creeper", "minecraft:sheep"]
+	"Target BlackList" = []
+	#
+	#----Mount Whitelist----
+	#	(takes effect after restart)
+	#	ONLY Entities in this list can be mounted by a recruit, for example: ["minecraft:boat", "smallships:cog"]
+	"Mount Whitelist" = ["minecraft:horse", "minecraft:llama", "minecraft:pig", "minecraft:boat", "minecraft:minecart", "smallships:cog", "smallships:brigg", "camels:camel"]
+	#
+	#----Should Aggressive Recruits attack enemy players that are placing or breaking blocks immediately?----
+	#	(takes effect after restart)
+	#	default: true
+	AggroRecruitsBlockEvents = true
+	#
+	#----Should Neutral Recruits attack enemy players that are placing or breaking blocks immediately?----
+	#	(takes effect after restart)
+	#	default: true
+	NeutralRecruitsBlockEvents = true
+	#
+	#----Should Recruits spawn as Patrols in the world?----
+	#	(takes effect after restart)
+	#	default: true
+	ShouldRecruitPatrolsSpawn = true
+	#
+	#----Chance that a Recruit Patrol can spawn. (higher values = higher chance to spawn)----
+	#	(takes effect after restart)
+	#	default: 15.0
+	#Range: 0.0 ~ 100.0
+	RecruitPatrolsSpawnChance = 15.0
+	#
+	#----Start armor ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned recruits, for example: ["head", "chest", "legs", "feet"]
+	StartArmorList = ["minecraft:leather_helmet", "minecraft:leather_chestplate", "minecraft:leather_leggings", "minecraft:leather_boots"]
+	#
+	#----Recruit start hand equipment ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned recruit, in this following order: ["main-hand", "off-hand"]
+	RecruitStartHandEquipment = ["minecraft:wooden_sword", ""]
+	#
+	#----Shieldman start hand equipment ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned shieldman, in this following order: ["main-hand", "off-hand" ]
+	ShieldmanStartHandEquipment = ["minecraft:wooden_axe", "minecraft:shield"]
+	#
+	#----Bowman start hand equipment ----
+	#	(takes effect after restart)
+	#	Items in this list will be equipped to a new spawned bowman, in this following order: ["main-hand", "off-hand" ]
+	BowmanStartHandEquipment = ["minecraft:bow", ""]
+	#
+	#----Currency----
+	#	(takes effect after restart)
+	#	The Item defined here, will be used to hire recruits. For example: ["minecraft:diamond"]	default: ["minecraft:emerald"]
+	RecruitCurrency = "minecraft:emerald"
+	#
+	#----Should Recruits look like Villagers?----
+	#	(takes effect after restart)
+	#	default: true
+	RecruitsLookLikeVillagers = true
+	#
+	#----No damage Immunity----
+	#	Should Immunity between hits be disabled?
+	#	(takes effect after restart)
+	#	default: false
+	NoDamageImmunity = false
+	#
+	#----List of damagesource that accept immunity ----
+	#	(takes effect after restart)
+	#	Damagesource in this list will apply a immunity of 0.5s to the entity like normal.
+	AcceptedDamagesourceImmunity = ["inFire", "lava", "sweetBerryBush", "cactus", "lightningBolt", "inWall", "hotFloor", "outOfWorld", "drown"]
+	#
+	#----Chance that a modded Pillager Patrol can spawn. (higher values = higher chance to spawn)----
+	#	(takes effect after restart)
+	#	default: 25.0
+	#Range: 0.0 ~ 100.0
+	PillagerPatrolsSpawnChance = 25.0
+	#
+	#----Should modded Pillager Patrols spawn in the world?----
+	#	(takes effect after restart)
+	#	default: false
+	ShouldPillagerPatrolsSpawn = false
+	#
+	#The interval in minutes a Recruit Patrol and Caravan can spawn.
+	#	(takes effect after restart)
+	#	default: 15
+	#Range: 1 ~ 60
+	RecruitPatrolSpawnInterval = 15
+	#
+	#The interval in minutes a Pillager Patrol can spawn.
+	#	(takes effect after restart)
+	#	default: 15
+	#Range: 1 ~ 60
+	PillagerPatrolSpawnInterval = 15
+
