@@ -1,6 +1,6 @@
 <h1>Fanatica's Back, Baby!</h1>
 
-<h2>Modpack Link: https://github.com/zderApfel/Fanatica-2/raw/master/fanatica2-v0.1.3-alpha.zip</h2>
+<h2>Modpack Link: https://www.curseforge.com/minecraft/modpacks/fanatica-2/files/4487191</h2>
 
 <h2>Discord Link: https://discord.gg/9uf68Uvzvy</h2>
 
