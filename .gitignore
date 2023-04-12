@@ -14,3 +14,7 @@
 usercache.json
 rhino.local.properties
 patchouli_data.json
+/crash-reports
+/usernamecache.json
+/defaultconfigs
+/config
