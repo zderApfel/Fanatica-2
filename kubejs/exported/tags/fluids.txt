@@ -1,0 +1,87 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 11, 2023, 2:31:46 PM
+
+#undergarden:virulent
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- #undergarden:virulent
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#twilightforest:molten_fiery
+- twilightforest:molten_fiery?
+- twilightforest:flowing_molten_fiery?
+
+#forge:molten_knightmetal
+- #twilightforest:molten_knightmetal?
+
+#tconstruct:tooltips/metal
+- #forge:molten_fiery
+- #forge:molten_knightmetal
+
+#twilightforest:molten_knightmetal
+- twilightforest:molten_knightmetal?
+- twilightforest:flowing_molten_knightmetal?
+
+#forge:molten_fiery
+- #twilightforest:molten_fiery?
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava
+
+#forge:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#earthmobsmod:mud
+- earthmobsmod:mud
+- earthmobsmod:mud_flow
+
+#twilightforest:fiery_essence
+- twilightforest:fiery_essence?
+- twilightforest:flowing_fiery_essence?
+
+#create:bottomless/deny
+
+#tconstruct:spilling/metal/cheap
+- #forge:molten_fiery
+- #twilightforest:molten_knightmetal
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote

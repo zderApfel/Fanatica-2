@@ -1,0 +1,16 @@
+/shaderpacks
+/schematics
+/saves
+/patchouli_books
+/logs
+/local
+/downloads
+/config/Discord-Integration.toml
+/Distant_Horizons_server_data
+/DiscordIntegration-Data
+/options.txt
+/minecraftinstance.json
+.curseclient
+usercache.json
+rhino.local.properties
+patchouli_data.json
