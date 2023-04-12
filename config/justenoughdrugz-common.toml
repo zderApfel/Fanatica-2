@@ -1,0 +1,73 @@
+
+["Common Configuration"]
+
+	["Common Configuration"."Oil Ore"]
+		#Enable generation of Oil Ore
+		"Enable Oil Ore Generation" = true
+		#Range: > 1
+		"Oil Ore weight" = 15
+		#Range: -64 ~ 320
+		"Oil Ore top anchor" = 30
+		#Range: -64 ~ 320
+		"Oil Ore bottom anchor" = -64
+		#Range: > 0
+		"Oil Ore size" = 16
+		#Range: 0.0 ~ 1.0
+		"Oil Ore exposed to air discard chance" = 0.1
+
+	["Common Configuration"."Sodium bicarbonate"]
+		#Enable generation of Sodium bicarbonate
+		"Enable Sodium bicarbonate Generation" = true
+		#Range: > 1
+		"Sodium bicarbonate weight" = 10
+		#Range: -64 ~ 320
+		"Sodium bicarbonate top anchor" = 100
+		#Range: -64 ~ 320
+		"Sodium bicarbonate bottom anchor" = -64
+		#Range: > 0
+		"Sodium bicarbonate size" = 10
+		#Range: 0.0 ~ 1.0
+		"Sodium bicarbonate exposed to air discard chance" = 0.85
+
+	["Common Configuration"."Red phosphorus"]
+		#Enable generation of Red phosphorus
+		"Enable Red phosphorus Generation" = true
+		#Range: > 1
+		"Red phosphorus weight" = 20
+		#Range: -64 ~ 320
+		"Red phosphorus top anchor" = 60
+		#Range: -64 ~ 320
+		"Red phosphorus bottom anchor" = 40
+		#Range: > 0
+		"Red phosphorus size" = 3
+		#Range: 0.0 ~ 1.0
+		"Red phosphorus exposed to air discard chance" = 0.8
+
+	["Common Configuration"."Sulfur ore"]
+		#Enable generation of Sulfur ore
+		"Enable Sulfur ore Generation" = true
+		#Range: > 1
+		"Sulfur ore weight" = 9
+		#Range: -64 ~ 320
+		"Sulfur ore top anchor" = 30
+		#Range: -64 ~ 320
+		"Sulfur ore bottom anchor" = -64
+		#Range: > 0
+		"Sulfur ore size" = 5
+		#Range: 0.0 ~ 1.0
+		"Sulfur ore exposed to air discard chance" = 0.85
+
+	["Common Configuration"."Lithium ore"]
+		#Enable generation of Lithium ore
+		"Enable Lithium ore Generation" = true
+		#Range: > 1
+		"Lithium ore weight" = 9
+		#Range: -64 ~ 320
+		"Lithium ore top anchor" = 64
+		#Range: -64 ~ 320
+		"Lithium ore bottom anchor" = -64
+		#Range: > 0
+		"Lithium ore size" = 10
+		#Range: 0.0 ~ 1.0
+		"Lithium ore exposed to air discard chance" = 0.85
+

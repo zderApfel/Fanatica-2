@@ -1,0 +1,5 @@
+#Slows the mining speed of budding amethyst
+slowedBuddingAmethystMiningSpeed = true
+#Adds silver ingot to pillager drops
+pillagerDropSilverIngot = true
+
