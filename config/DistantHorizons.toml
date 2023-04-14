@@ -296,7 +296,7 @@ optionsButton = true
 		# FANCY: Use actaul light engines to generate proper values. 
 		#
 		# This will effect generation speed, but not the rendering performance.
-		lightGenerationMode = "FANCY"
+		lightGenerationMode = "FAST"
 		# In what priority should fake chunks be generated outside the vanilla render distance? 
 		#
 		# FAR_FIRST 
