@@ -1,6 +1,6 @@
 <h1>Fanatica's Back, Baby!</h1>
 
-<h2>Modpack Link: https://www.curseforge.com/minecraft/modpacks/fanatica-2/files/4487191</h2>
+<h2>Modpack Link: https://www.curseforge.com/minecraft/modpacks/fanatica-2/download/4489435</h2>
 
 <h2>Discord Link: https://discord.gg/9uf68Uvzvy</h2>
 
