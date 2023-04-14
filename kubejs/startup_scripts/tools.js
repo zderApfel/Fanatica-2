@@ -26,7 +26,7 @@ const tools = [
         //Attack speed
         1.6, 
         
-        //Attack damage. NOTE: The game subtracs 1 from this value
+        //Attack damage. NOTE: The game subtracts 1 from this value
         6.0 
     )
 ]

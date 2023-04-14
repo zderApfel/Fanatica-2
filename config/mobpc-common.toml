@@ -1,0 +1,3 @@
+#Include Items that prevent marking the persistent flag
+IncludeItems = ["minecraft:stick", "minecraft:apple", "minecraft:dirt", "minecraft:cobblestone", "minecraft:egg", "minecraft:feather", "minecraft:chicken", "minecraft:rotten_flesh", "minecraft:arrow", "minecraft:bone", "minecraft:string", "minecraft:wheat_seeds", "minecraft:ink_sac"]
+
