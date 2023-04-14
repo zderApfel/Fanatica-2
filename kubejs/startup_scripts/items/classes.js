@@ -1,42 +1,24 @@
-function Item(id, name, rarity, texture, tier, group, type, attackDamageBonus, speed){
-    //How the game and scripts identify this item
+function Item(id, name, rarity, texture, tier, group, type, damage, speed){
     this.id = id;
-
-    //Name of item as seen by the player
     this.name = name;
-
-    //Check KubeJS documentation for more info
     this.rarity = rarity;
-
-    //Texture of the item
-    this.texture = texture; 
-
-    //The tier of it, specifically for tools
-    this.tier = tier; 
-
-    //The "group" of the item for things like Creative inventory tabs
-    this.group = group; 
-
-    //Check KubeJS documentation for more info
+    this.texture = texture;
+    this.tier = tier;
+    this.group = group;
     this.type = type;
-
-    //The item's melee attack damage
-    this.attackDamageBonus = attackDamageBonus;
-
-    //The item's attackspeed
+    this.damage = damage;
     this.speed = speed;
 }
 
-function ItemTier(name, uses, enchantmentValue, repairIngredient){
-//Name of the item tier
-this.name = name;
+function ItemTier(name, uses, speed, level, enchantmentValue, repairIngredient){
+    this.name = name;
+    this.uses = uses;
+    this.speed = speed;
+    this.level = level;
+    this.enchantmentValue = enchantmentValue;
+    this.repairIngredient = repairIngredient;
+}
 
-//Max durability of the item 
-this.uses = uses; 
+function ArmorTier(name, durabilityMultiplier, slowProtections, enchantmentValue, equipSound, repairIngredient, toughness, knockbackResistance){
 
-//How well the item can be enchanted at an enchantment table, cannot be enchanted at 0
-this.enchantmentValue = enchantmentValue;
-
-//What material this item can be repaired with at an anvil or crafting table
-this.repairIngredient = repairIngredient;
 }
