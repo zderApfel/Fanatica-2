@@ -2,7 +2,7 @@
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
-    "displayEntities": true,
+    "displayEntities": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "iconMode": "TOP",

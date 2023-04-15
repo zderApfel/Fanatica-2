@@ -3,7 +3,7 @@
 [Settings]
 
 	[Settings.Misc]
-		"Cloud Height [Raw, Default 256]" = 256
+		"Cloud Height [Raw, Default 256]" = 220
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 		"Render Fog" = true
 		"Hide JEI Until Searching" = true
@@ -11,8 +11,8 @@
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 
 	[Settings."FPS Counter"]
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
-		"FPS Counter Distance" = 12
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"FPS Counter Distance" = 40
 
 	[Settings."Entity Distance"]
 		"Enable Max Distance Checks" = true
@@ -30,9 +30,9 @@
 		"Zoom Overlay?" = true
 
 	[Settings."True Darkness"]
-		"Use True Darkness" = true
+		"Use True Darkness" = false
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
-		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DARK"
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "PITCH_BLACK"
 
 		[Settings."True Darkness".Advanced]
 			"Only Effect Block Lighting" = false
