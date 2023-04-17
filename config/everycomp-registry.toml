@@ -21,9 +21,6 @@
 		crimson = true
 		warped = true
 
-	[wood_type.darkerdepths]
-		petrified = true
-
 	[wood_type.twilightforest]
 		twilight_oak = true
 		canopy = true

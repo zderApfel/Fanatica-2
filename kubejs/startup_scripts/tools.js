@@ -1,4 +1,4 @@
-//Priority: 0
+//Priority: 2
 
 //Tools\\
 
@@ -12,10 +12,15 @@ const tools = [
 
 //Tiers\\
 
-const tiers = [
-    new ItemTier('silver',300,5,4,21,'#forge:ingots/silver',1)
-]
-
+const toolTiers = [
+    new ItemTier('silver',
+    300,
+    5,
+    4,
+    21,
+    '#forge:ingots/silver',
+    1
+)]
 
 /*
     |||||||||||||||||||||||||||||||||||
@@ -36,7 +41,7 @@ tools.forEach(y =>
     })
 )
 
-tiers.forEach(x => 
+toolTiers.forEach(x => 
     onEvent('item.registry.tool_tiers', event => {
         console.log(`ZACH - Loading ${x.name} tool tier...`) 
         event.add(x.name, tier =>{
@@ -48,3 +53,4 @@ tiers.forEach(x =>
        })
     })
 )
+
