@@ -1,4 +1,4 @@
-//Priority: 2
+//Priority: 1
 
 //Tools\\
 
@@ -14,13 +14,14 @@ const tools = [
 
 const toolTiers = [
     new ItemTier('silver',
-    300,
-    5,
-    4,
-    21,
-    '#forge:ingots/silver',
-    1
-)]
+        300,
+        5,
+        4,
+        21,
+        '#forge:ingots/silver',
+        1
+    )
+]
 
 /*
     |||||||||||||||||||||||||||||||||||
