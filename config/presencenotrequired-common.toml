@@ -1,0 +1,15 @@
+
+[unloadedChunksProgress]
+	#Furnaces smelt in unloaded chunks
+	furnacesSmelt = true
+	#Brewing Stands brew in unloaded chunks
+	brewingStandsBrew = true
+	#Campfires cook in unloaded chunks
+	campfiresCook = true
+	#Mobs grow in unloaded chunks
+	mobGrowing = true
+	#Chickens lay eggs in unloaded chunks
+	chickenLayingEggs = true
+	#Crops grow in unloaded chunks
+	cropsGrowing = true
+

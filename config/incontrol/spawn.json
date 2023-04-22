@@ -1,1 +1,38 @@
-[]
+[
+	{
+		"passive": true,
+		"dimension": "minecraft:overworld",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"passive": false,
+		"dimesnion": "minecraft:overworld",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"passive": true,
+		"dimension": "minecraft:the_nether",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"passive": false,
+		"dimesnion": "minecraft:the_nether",
+		"mincount": 10,
+		"result": "deny"
+	},
+		{
+		"passive": true,
+		"dimension": "minecraft:the_end",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"passive": false,
+		"dimesnion": "minecraft:the_end",
+		"mincount": 10,
+		"result": "deny"
+	}
+]

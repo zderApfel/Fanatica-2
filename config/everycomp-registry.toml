@@ -44,6 +44,10 @@
 		azalea = true
 		blossom = true
 
+	[wood_type.domum_ornamentum]
+		cactus = true
+		green_cactus = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]

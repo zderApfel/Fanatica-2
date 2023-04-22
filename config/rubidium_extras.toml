@@ -11,7 +11,7 @@
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 
 	[Settings."FPS Counter"]
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "SIMPLE"
 		"FPS Counter Distance" = 40
 
 	[Settings."Entity Distance"]
